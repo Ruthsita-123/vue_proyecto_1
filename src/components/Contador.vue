@@ -1,8 +1,9 @@
 <template>
-  <h1>hl</h1>
+
+  <h1>Hola Mundo</h1>
   <p>{{ contador }}</p>
-<button @click="incrementar">Incrementar</button>
-<button @click="Decrementar">Decrementar</button>
+  <button @click="incrementar">Incrementar</button>
+  <button @click="Decrementar">Decrementar</button>
 </template>
 
 <script setup>
